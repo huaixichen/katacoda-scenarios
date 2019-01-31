@@ -2,12 +2,40 @@
     "title": "portworx官方培训课程转载",
     "description": "",
     "icon": "fa-katacoda",
-    "courses": [  	  
+    "courses": [
+      {
+        "course_id": "deploy-px-k8s",
+        "title": "Install Portworx on Kubernetes",
+        "description": "Install Portworx on Kubernetes"
+      },
+      {
+        "course_id": "playground",
+        "title": "Instructor Training Environment",
+        "description": "Base Kubernetes Install Used For Portworx Training Only"
+      },	  
+      {
+        "course_id": "px-k8s-kubectl-resize-volume",
+        "title": "Resize Kubernetes volumes using kubectl",
+        "description": "Using Kubernetes cli kubectl to resize a volume on the fly."
+      },	  	  
       {
         "course_id": "px-k8s-redis",
+        "id": "px-k8s-redis",
         "title": "HA Redis on Portworx on Kubernetes",
         "description": "HA Redis on Portworx"
-      } 
+      },
+      {
+        "course_id": "px-k8s-vol-basic",
+        "id": "px-k8s-vol-basic",
+        "title": "Portworx on Kubernetes",
+        "description": "Portworx Kubernetes basics"
+      },  
+      {
+        "course_id": "px-k8s-mysql",
+        "id": "px-k8s-mysql",
+        "title": "HA MySQL on Kubernetes with Portworx",
+        "description": "Deploying a MySQL database on Kubernetes using Portworx, showing HA failover scenario, expanding volume dynamically, and taking snapshots to recover from user error."
+      }	  
     ]
   }
   
